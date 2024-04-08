@@ -10,22 +10,20 @@ html body head header p div {
 }
 body {
   margin: 0;
-background-color: #fff5bc;
-  height: 2000px;
+  background-color: #fff5bc;
+  
 }
 .header {
   display: inline;
-  
 }
 .title {
   float: left;
   color: white;
-  }
+}
 .nav {
   display: inline;
   float: right;
   text-align: right;
-  
 }
 .nav a {
   background-color: rgb(255, 187, 0);
@@ -41,44 +39,48 @@ background-color: #fff5bc;
 .dashboard {
   flex: 1;
   background-color: #fff;
-  border: 1px solid rgb(255, 187, 0);
+  border: 2px solid rgb(255, 187, 0);
   border-radius: 5px;
   padding: 20px;
-  margin: 20px;
-  height: 400px;
-  width: 200px;
+  margin: 20px 10px 20px 50px;
+  height: 375px;
 }
 .budget {
   flex: 1;
   background-color: #fff;
-  border: 1px solid rgb(255, 187, 0);
+  border: 2px solid rgb(255, 187, 0);
   border-radius: 5px;
   padding: 20px;
-  margin: 20px;
-  height: 400px;
-  width: 200px;
+  margin: 20px 10px;
+  height: 375px;
 }
 .checkbooks {
   flex: 1;
   background-color: #fff;
-  border: 1px solid rgb(255, 187, 0);
+  border: 2px solid rgb(255, 187, 0);
   border-radius: 5px;
   padding: 20px;
-  margin: 20px;
-  height: 400px;
-  width: 200px;
+  margin: 20px 10px;
+  height: 375px;
 }
 .money {
   flex: 1;
   background-color: #fff;
-  border: 1px solid rgb(255, 187, 0);
+  border: 2px solid rgb(255, 187, 0);
   border-radius: 5px;
   padding: 20px;
-  margin: 20px;
-  height: 400px;
-  width: 200px;
+  margin: 20px 50px 20px 10px;
+  height: 375px;
 }
 h1 {
   margin: 0;
   font-size: 17px;
+}
+input {
+  background-color: rgb(255, 187, 0);
+  color: white;
+  border: 0;
+  padding: 5px 80px;
+  margin: 0px 10px;
+  
 }

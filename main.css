@@ -3,42 +3,36 @@ html body head header p div {
   padding: 0;
   border: 0;
 }
-.banner {
-  background-color: rgb(255, 187, 0);
-  padding: 40px 20px;
-  position: relative;
-}
 body {
   margin: 0;
   background-color: #fff5bc;
   font-family: sans-serif;
-  
 }
-.header {
-  display: inline;
+.container1 {
+  display: flex;
+  background-color: rgb(255, 187, 0);
+  color:white;
+  padding: 40px 20px;
+  justify-content: space-between;
 }
-.title {
-  float: left;
-  color: white;
+.title{
+  justify-content: flex-start;
+  text-decoration: none;
 }
 .nav {
-  display: inline;
-  float: right;
-  text-align: right;
+  justify-content: flex-end;
 }
 .nav a {
-  background-color: rgb(255, 187, 0);
   text-decoration: none;
-  color: white;
   margin-left: 20px;
+  color:white;
 }
-.container {
+.container2 {
   display: flex;
-  clear: both;
+  align-items: center;
 }
-
 .dashboard {
-  flex: 1;
+
   background-color: #fff;
   border: 2px solid rgb(255, 187, 0);
   border-radius: 5px;
@@ -48,7 +42,7 @@ body {
   font-size: 15px;
 }
 .budget {
-  flex: 1;
+
   background-color: #fff;
   border: 2px solid rgb(255, 187, 0);
   border-radius: 5px;
@@ -58,7 +52,7 @@ body {
   font-size: 15px;
 }
 .checkbooks {
-  flex: 1;
+
   background-color: #fff;
   border: 2px solid rgb(255, 187, 0);
   border-radius: 5px;
@@ -68,7 +62,7 @@ body {
   font-size: 15px;
 }
 .money {
-  flex: 1;
+
   background-color: #fff;
   border: 2px solid rgb(255, 187, 0);
   border-radius: 5px;
@@ -87,5 +81,4 @@ input {
   border: 0;
   padding: 5px 80px;
   margin: 0px 10px;
-  
 }

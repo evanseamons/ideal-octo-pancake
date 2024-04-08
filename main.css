@@ -2,83 +2,83 @@ html body head header p div {
   margin: 0;
   padding: 0;
   border: 0;
-  
+}
+.banner {
+  background-color: rgb(255, 187, 0);
+  padding: 40px 20px;
+  position: relative;
 }
 body {
   margin: 0;
- 
+background-color: #fff5bc;
   height: 2000px;
 }
 .header {
-    display:inline;
-   
+  display: inline;
+  
 }
 .title {
-    float: left;
-    padding: 0px 20px;
-}
+  float: left;
+  color: white;
+  }
 .nav {
   display: inline;
   float: right;
   text-align: right;
-  padding: 20px 20px;
-
+  
+}
+.nav a {
+  background-color: rgb(255, 187, 0);
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
 }
 .container {
-    display: flex;
-    clear:both;
-    
-  }
+  display: flex;
+  clear: both;
+}
 
-  .dashboard {
-    flex: 1;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 20px;
-    height:400px;
-    width: 200px;
-    
-  }
-  .budget {
-    flex: 1;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 20px;
-    height:400px;
-    width: 200px;
-    
-  }
-  .checkbooks {
-    flex: 1;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 20px;
-    height:400px;
-    width: 200px;
-    
-  }
-  .money {
-    flex: 1;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 20px;
-    height:400px;
-    width: 200px;
-    
-  }
-  
-  h2 {
-    color: #333;
-  }
-  
-  p {
-    color: #666;
-  }
+.dashboard {
+  flex: 1;
+  background-color: #fff;
+  border: 1px solid rgb(255, 187, 0);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  height: 400px;
+  width: 200px;
+}
+.budget {
+  flex: 1;
+  background-color: #fff;
+  border: 1px solid rgb(255, 187, 0);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  height: 400px;
+  width: 200px;
+}
+.checkbooks {
+  flex: 1;
+  background-color: #fff;
+  border: 1px solid rgb(255, 187, 0);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  height: 400px;
+  width: 200px;
+}
+.money {
+  flex: 1;
+  background-color: #fff;
+  border: 1px solid rgb(255, 187, 0);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  height: 400px;
+  width: 200px;
+}
+h1 {
+  margin: 0;
+  font-size: 17px;
+}
